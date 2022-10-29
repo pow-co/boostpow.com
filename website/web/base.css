@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 24px;
+  color: #aaa;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  margin: 5rem 2rem 4rem;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.controls {
+  text-align: center;
+  margin: 0 auto 2rem;
+  padding: 24px;
+}
+
+.overlayWithMargin{
+	opacity:0.7;
+	position: fixed;
+	top:10px;
+	right:10px;
+	bottom:10px;
+	left:10px;
+  color: white;
+}
+
+.overlayWithMargin h1{
+	color: white;
+  font-size: 500%;
+}
+
+
+.overlayWithMargin h2{
+	color: white;
+  font-size: 500%;
+}
+
+
+.overlayWithMargin .read-the-whitepaper{
+  border: 5px solid white;
+  width: 200px;
+  padding: 10px;
+  margin: 0 auto;
+	color: white;
+}
